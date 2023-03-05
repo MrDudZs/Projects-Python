@@ -5,7 +5,7 @@ from turtle import *
 # Part 1
 bgcolor('Black')
 
-speed(0)
+speed(5)
 
 # Part 2
 begin_fill()
@@ -47,6 +47,6 @@ circle(30)
 end_fill()
 
 #Hides pen at end of animation
-penup()
+hideturtle()
 
 done()
