@@ -30,5 +30,14 @@ This is the opening so that the code know the set object made will be filled tho
 # "End_fill()"
 This lets the program know that you are done with this object and that it is ready to be filled.
 
+# "penup()"
+Lifts pen so that it will not draw when in movement.
+
+# "pendown()"
+Puts pen back down so that it is able to draw.
+
+# "Speed"
+Sets animation speed for 0 = instant 10 = slowest.
+
 # "Done()"
 This is mainly for VSC to prevent the debug window from closing.
