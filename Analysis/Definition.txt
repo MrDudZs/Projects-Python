@@ -7,3 +7,9 @@ Levels: Has, Slight, None
 Part 2:
 Display a list of patients and diagnoses
 store new diagnoses in list
+
+How it works:
+Text-based program that runs in Terminal/CMD Prompt.
+
+1. Display prompt/question
+2. Process user text input
