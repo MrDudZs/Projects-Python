@@ -105,7 +105,7 @@ def Create_New():
     onkey(move_down, "Down")
     onkey(move_left, "Left")
     onkey(move_right, "Right")
-        
+
 # ==================
 #       Inputs
 # ==================
