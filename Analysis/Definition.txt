@@ -1,0 +1,9 @@
+Part 1:
+Short questionnaire to state the users dehydration.
+YES-or-NO style questions
+previous responses are read for next question
+Levels: Has, Slight, None
+
+Part 2:
+Display a list of patients and diagnoses
+store new diagnoses in list
