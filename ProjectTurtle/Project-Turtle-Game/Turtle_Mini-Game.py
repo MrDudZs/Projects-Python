@@ -3,7 +3,7 @@
 # Made my MrDudZs (Matthew Dudley)
 #==================================
 from turtle import *
-
+from random import *
 
 # ==================
 #      Settings
@@ -35,11 +35,21 @@ goto(100, -200)
 goto(100, 200)
 end_fill()
 
+# Obstical
+color("Red")
+begin_fill()
+goto(100, 100)
+goto(100, -100)
+goto(100, -25)
+goto(100, 25)
+end_fill()
+
 # ==================
 #   Sprite Settings
 # ==================
 
 # Creates sprite
+
 penup()
 goto(-200, 0)
 shape("turtle")
@@ -72,7 +82,7 @@ def move_right ():
 
 # Check to see if player has reached finish line
 def check_goal ():
-    if xcor() > 100:
+    if xcor() > 101:
         hideturtle()
         color("White")
         write("You WIN!")
@@ -81,8 +91,21 @@ def check_goal ():
         onkey(None, "Down")
         onkey(None, "Left")
         onkey(None, "Right")
+        clearscreen()
+        Create_New()
 
-
+def Create_New():
+    bgcolor("#333")
+    write("Well done!!!")
+    penup()
+    goto(randrange(-200, 0), randrange(-200, 0))
+    shape("turtle")
+    color("Green")
+    onkey(move_up, "Up")
+    onkey(move_down, "Down")
+    onkey(move_left, "Left")
+    onkey(move_right, "Right")
+        
 # ==================
 #       Inputs
 # ==================
