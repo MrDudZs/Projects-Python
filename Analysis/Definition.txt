@@ -13,3 +13,8 @@ Text-based program that runs in Terminal/CMD Prompt.
 
 1. Display prompt/question
 2. Process user text input
+
+
+WARNING!
+DO NOT TAKE ANY DIAGNOSIS AS TRUE!
+HYDRATE
