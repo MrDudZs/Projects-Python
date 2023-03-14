@@ -1,6 +1,6 @@
-#======================================================================#
-# What does this program do?
-
+#============================#
+# Dehydration Diagnosis Bot
+#============================#
 
 # Prompts
 Welcome_prompt = "Welcome, what would you like to do? \n -To list all patients, press 1 \n -To run a new diagnosis, press 2\n -To quit, press Q\n"
